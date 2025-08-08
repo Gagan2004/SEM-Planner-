@@ -1,0 +1,45 @@
+# ----------------------------------------------------
+# SEM PLAN GENERATOR CONFIGURATION
+# ----------------------------------------------------
+
+# Step 1: Foundational Inputs
+brand_info:
+  name: "Artisan Roast Chandigarh"
+  website: "https://www.artisanroastchandigarh.in" # Your brand's website
+  competitor_website: "https://www.bluetokaicoffee.com" # Main competitor for URL-based keyword discovery
+  competitor_names:
+    - "Blue Tokai"
+    - "Starbucks"
+    - "Nescafé"
+    - "Bru Coffee"
+  service_locations: # Used for location-based ad group triggers
+    - "Chandigarh"
+    - "Jalandhar"
+    - "Mohali"
+
+# Step 2: Keyword Discovery Inputs
+# Provide either seed_keywords or a brand_website/competitor_website for discovery.
+discovery_inputs:
+  seed_keywords:
+    - "specialty coffee india"
+    - "freshly roasted coffee beans"
+    - "buy arabica beans online"
+    - "single origin coffee"
+    - "coffee roasters Jalandhar"
+    - "coffee brewing equipment"
+    - "french press price"
+    - "best coffee beans for espresso"
+    - "coffee subscription india"
+    - "cold brew concentrate"
+
+# API & Campaign Parameters
+settings:
+  google_ads_customer_id: ""         # Your 10-digit Google Ads ID (no hyphens)
+  gemini_api_key: "AIzaSyBKlds4bNA6wR9rnl48EfDy-Mw0m_DuK_4" # Or set as environment variable
+  min_search_volume: 200 # Step 3: Filtering threshold
+  currency_symbol: "$"
+
+
+
+
+
